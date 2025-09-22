@@ -1,5 +1,3 @@
-# LogicaSuperTrunfo-C
-Implementação da lógica do jogo Super Trunfo
 #include <stdio.h>
 #include <string.h>
 
@@ -37,8 +35,8 @@ void compararCartas(Carta c1, Carta c2, int escolha) {
 }
 
 int main() {
-    Carta jogador1 = {"Dragão", 90, 70, 60, 85};
-    Carta jogador2 = {"Fênix", 80, 95, 75, 65};
+    Carta jogador1 = {"Leo", 90, 70, 60, 85};
+    Carta jogador2 = {"Alice", 80, 95, 75, 65};
 
     int escolha;
     printf("=== Super Trunfo ===\n");
